@@ -2,7 +2,7 @@ task: detect
 mode: train
 model: yolov8n.yaml
 data: C:\envs\DataSets\Persian Car Plates.v2i.yolov8-obb\data.yaml
-epochs: 100
+epochs: 20
 time: null
 patience: 100
 batch: 16
@@ -25,7 +25,7 @@ rect: false
 cos_lr: false
 close_mosaic: 10
 resume: false
-amp: true
+amp: false
 fraction: 1.0
 profile: false
 freeze: null
